@@ -162,24 +162,25 @@ nav a:hover {
     font-size: 30px;
     text-align: center;
     margin-top: 25%;
-   
+
 }
 
-.cartao .link:hover{
+.cartao .link:hover {
     color: #2ecc71;
     transition: 1s;
-  }
+}
 
 
-  /* Responsividade */
+/* Responsividade */
 
-  @media screen and (max-width:1200px) {
-    body{
+@media screen and (max-width:1200px) {
+    body {
         overflow: scroll;
         height: 100%;
-        
+
     }
-    .background{
+
+    .background {
         height: 180vh;
     }
 
@@ -187,16 +188,16 @@ nav a:hover {
     .link {
         display: flex;
         top: 50px;
-    
+
     }
-    
-    
+
+
     .text {
         color: #fff;
         margin-left: -10%;
     }
-    
-    
+
+
     .link .card {
         text-align: center;
         color: #fff;
@@ -207,12 +208,12 @@ nav a:hover {
         border-radius: 15px;
         background: #ffffff13;
     }
-    
-    
+
+
     nav {
         text-align: center;
     }
-    
+
     nav a {
         text-align: center;
         color: #fff;
@@ -220,8 +221,14 @@ nav a:hover {
         left: -20%;
     }
 
-    .cartao .cards{
-        margin-top: 8%;
+    .cartao {
+        align-items: center;
     }
-    
+
+    .cartao .cards {
+        align-items: center;
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+
 }
