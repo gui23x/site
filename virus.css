@@ -12,10 +12,11 @@
 }
 
 body {
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 180vh;
+    min-height: 150vh;
     background: #161623;
 }
 
@@ -25,7 +26,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 110vh;
+    height: 150vh;
     align-items: center;
     text-align: center;
     justify-content: center;
