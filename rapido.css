@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,6 +97,12 @@ header {
 
 
 
+.titulo {
+    font-size: 25px;
+    text-align: center;
+    color: #2ecc71;
+    margin-top: 50px
+}
 
 /* Card da Barra de Links*/
 
@@ -154,7 +160,6 @@ nav a:hover {
 .cartao {
     align-items: center;
     margin-left: 10%;
-    margin-top: 6%;
 }
 
 .cartao .cards {
